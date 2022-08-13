@@ -18,7 +18,7 @@ const Hero = () => (
           I'm a computer scientistfrom Upstate New York who really likes .NET!{' '}
           <br></br> I graduated from Clarkson University in 2021 with my
           Bachelors of Science in Computer Science and have been working for UPS
-          as a .NET App Developer ever since!
+          as a .NET App Developer ever since! You can find my resume <GradientText><a href='/resume.pdf'>here</a></GradientText>!
         </>
       }
       avatar={
