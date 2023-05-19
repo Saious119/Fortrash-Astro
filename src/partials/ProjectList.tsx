@@ -64,7 +64,7 @@ const ProjectList = () => (
             <Tags color={ColorTags.FUCHSIA}>Discord.js</Tags>
             <Tags color={ColorTags.INDIGO}>Discord.NET</Tags>
             <Tags color={ColorTags.ROSE}>Go</Tags>
-            <Tags color={Color.Tags.BLUE>Bot</Tags>
+            <Tags color={ColorTags.BLUE}>Bot</Tags>
             <Tags color={ColorTags.LIME}>Joke</Tags>
           </>
         }
