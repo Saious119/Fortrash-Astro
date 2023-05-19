@@ -44,7 +44,7 @@ const ProjectList = () => (
         }}
         category={
           <>
-            <Tags color={ColorTags.VIOLET}>.NET 6</Tags>
+            <Tags color={ColorTags.VIOLET}>.NET 7</Tags>
             <Tags color={ColorTags.EMERALD}>Blazor</Tags>
             <Tags color={ColorTags.YELLOW}>MongoDB</Tags>
           </>
@@ -64,6 +64,7 @@ const ProjectList = () => (
             <Tags color={ColorTags.FUCHSIA}>Discord.js</Tags>
             <Tags color={ColorTags.INDIGO}>Discord.NET</Tags>
             <Tags color={ColorTags.ROSE}>Go</Tags>
+            <Tags color={Color.Tags.BLUE>Bot</Tags>
             <Tags color={ColorTags.LIME}>Joke</Tags>
           </>
         }
