@@ -17,7 +17,7 @@ const ProjectList = () => (
     <div className="flex flex-col gap-6">
       <Project
         name="Pycritic API"
-        description="A publically hosted API to get metacritic data from video games"
+        description="A publically hosted API to get metacritic data for video games. More info on its use can be found in the repo's README file."
         link="https://github.com/Saious119/pycritic-api"
         img={{
           src: '/assets/images/pycritic.png',
