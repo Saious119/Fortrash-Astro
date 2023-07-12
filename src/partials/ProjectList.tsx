@@ -16,6 +16,22 @@ const ProjectList = () => (
   >
     <div className="flex flex-col gap-6">
       <Project
+        name="Pycritic API"
+        description="A publically hosted API to get metacritic data from video games"
+        link="https://github.com/Saious119/pycritic-api"
+        img={{
+          src: '/assets/images/pycritic.png',
+          alt: 'Project Pycritic API',
+        }}
+        category={
+          <>
+            <Tags color={ColorTags.YELLOW}>Python</Tags>
+            <Tags color={ColorTags.EMERALD}>API</Tags>
+            <Tags color={ColorTags.SKY}>Selenium</Tags>
+          </>
+        }
+      />
+      <Project
         name="ShogAI"
         description="A shogi playing AI written in the Go programing language."
         link="https://github.com/Saious119/ShogAI"
