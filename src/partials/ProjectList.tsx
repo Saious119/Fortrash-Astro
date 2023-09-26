@@ -50,8 +50,8 @@ const ProjectList = () => (
       <Project
         name="Manga Tracker"
         description="An ASP.NET Blazor web app written with .NET. It has log in ability 
-        both with local accounts and the ability to log in with your google account. 
-        The app uses a MongoDB database hosted by Atlas to persist user data. 
+        both with local accounts and the ability to log in with your Discord account. 
+        The app uses a PostgreSQL database hosted by CockroachDB to persist user data. 
         A .NET MAUI version is currently in development."
         link="https://github.com/Saious119/Manga-Tracker-Blazor-Edition"
         img={{
@@ -63,6 +63,8 @@ const ProjectList = () => (
             <Tags color={ColorTags.VIOLET}>.NET 7</Tags>
             <Tags color={ColorTags.EMERALD}>Blazor</Tags>
             <Tags color={ColorTags.YELLOW}>MongoDB</Tags>
+            <Tags color={ColorTags.BLUE}>PostgreSQL</Tags>
+            <Tags color={ColorTags.INDIGO}>CockroachDB</Tags>
           </>
         }
       />
