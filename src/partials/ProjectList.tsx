@@ -70,7 +70,7 @@ const ProjectList = () => (
       />
       <Project
         name="Discord Bots"
-        description="A collection of discord bots written in javascript, go, and C# created 
+        description="A collection of discord bots written in javascript, go, python, and C# created 
         at friend's request to do a variety of jokes and other odd ball functionality."
         link="https://github.com/Saious119/Discord-Bots"
         img={{
@@ -82,6 +82,7 @@ const ProjectList = () => (
             <Tags color={ColorTags.FUCHSIA}>Discord.js</Tags>
             <Tags color={ColorTags.INDIGO}>Discord.NET</Tags>
             <Tags color={ColorTags.ROSE}>Go</Tags>
+            <Tags color={ColorTags.YELLOW}>Python</Tags>
             <Tags color={ColorTags.BLUE}>Bot</Tags>
             <Tags color={ColorTags.LIME}>Joke</Tags>
           </>
