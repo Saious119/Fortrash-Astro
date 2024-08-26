@@ -4,7 +4,7 @@ import {
   Project,
   Section,
   Tags,
-} from 'astro-boilerplate-components';
+} from "astro-boilerplate-components";
 
 const ProjectList = () => (
   <Section
@@ -20,8 +20,8 @@ const ProjectList = () => (
         description="A publically hosted API to get metacritic data for video games. More info on its use can be found in the repo's README file."
         link="https://github.com/Saious119/pycritic-api"
         img={{
-          src: '/assets/images/pycritic.png',
-          alt: 'Project Pycritic API',
+          src: "/assets/images/pycritic.png",
+          alt: "Project Pycritic API",
         }}
         category={
           <>
@@ -36,8 +36,8 @@ const ProjectList = () => (
         description="A shogi playing AI written in the Go programing language."
         link="https://github.com/Saious119/ShogAI"
         img={{
-          src: '/assets/images/shogi.png',
-          alt: 'Project ShogAI',
+          src: "/assets/images/shogi.png",
+          alt: "Project ShogAI",
         }}
         category={
           <>
@@ -55,8 +55,8 @@ const ProjectList = () => (
         A .NET MAUI version is currently in development."
         link="https://github.com/Saious119/Manga-Tracker-Blazor-Edition"
         img={{
-          src: '/assets/images/blazor.png',
-          alt: 'Project Manga Tracker',
+          src: "/assets/images/blazor.png",
+          alt: "Project Manga Tracker",
         }}
         category={
           <>
@@ -71,11 +71,11 @@ const ProjectList = () => (
       <Project
         name="Discord Bots"
         description="A collection of discord bots written in javascript, go, python, and C# created 
-        at friend's request to do a variety of jokes and other odd ball functionality."
+        at friends' request to do a variety of jokes and other odd ball functionality."
         link="https://github.com/Saious119/Discord-Bots"
         img={{
-          src: '/assets/images/Discord-Logo.png',
-          alt: 'Project Discord Bots',
+          src: "/assets/images/Discord-Logo.png",
+          alt: "Project Discord Bots",
         }}
         category={
           <>
