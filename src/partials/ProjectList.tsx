@@ -60,11 +60,12 @@ const ProjectList = () => (
         }}
         category={
           <>
-            <Tags color={ColorTags.VIOLET}>.NET 7</Tags>
+            <Tags color={ColorTags.VIOLET}>.NET 8</Tags>
             <Tags color={ColorTags.EMERALD}>Blazor</Tags>
+            <Tags color={ColotTags.SKY}>Mud Blazor</Tags>
             <Tags color={ColorTags.YELLOW}>MongoDB</Tags>
             <Tags color={ColorTags.BLUE}>PostgreSQL</Tags>
-            <Tags color={ColorTags.INDIGO}>CockroachDB</Tags>
+            <Tags color={ColorTags.INDIGO}>Discord.NET</Tags>
           </>
         }
       />
