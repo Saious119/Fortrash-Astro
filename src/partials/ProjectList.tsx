@@ -16,6 +16,24 @@ const ProjectList = () => (
   >
     <div className="flex flex-col gap-6">
       <Project
+        name="Marvel Comic Tracker for TRMNL"
+        description="A Plugin for the TRMNL e-ink device that tracks Marvel Comics series by using the official Marvel Comic API."
+        link="https://github.com/Saious119/trmnl-marvel-comic-tracker"
+        img={{
+          src: "/assets/images/trmnlAndMarvel.png",
+          alt: "Project Marvel Comic Tracker for TRMNL",
+        }}
+        category={
+          <>
+            <Tags color={ColorTags.RED}>Ruby</Tags>
+            <Tags color={ColorTags.SKY}>Javascript</Tags>
+            <Tags color={ColorTags.LIME}>Liquid</Tags>
+            <Tags color={ColorTags.ORANGE}>TRMNL</Tags>
+            <Tags color={ColorTags.ROSE}>Marvel API</Tags>
+          </>
+        }
+      />
+      <Project
         name="Pycritic API"
         description="A publically hosted API to get metacritic data for video games. More info on its use can be found in the repo's README file."
         link="https://github.com/Saious119/pycritic-api"
